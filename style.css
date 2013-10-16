@@ -1,0 +1,162 @@
+
+  li[class="result"] {
+    opacity: 0.8;
+    font-size: 1.2em;
+  }
+
+  li[class="result"]:hover {
+    font-size: 1.4em;
+    opacity: 1;
+    cursor: pointer;
+  }
+
+.results {
+  text-align: center;
+}
+
+.details {
+  float: left;
+  width: 500px;
+  text-align: center;
+}
+
+.input-form {
+  text-align: center;
+}
+
+/* Movies Style */
+
+.list {
+  color: black;
+  opacity: .7;
+  font-size: 1.4em;
+  text-decoration: none;
+}
+
+.list:hover {
+  opacity: 1;
+  font-size: 1.6em;
+}
+
+.container {
+    position: relative;
+    font-family: 'Kite One', sans-serif;
+    height: 540px;
+    margin: 0 10% 0 10%;
+}
+
+.container:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: transparent url('wizard_2.jpg') no-repeat;
+   opacity: 0.3;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+}​
+
+body {
+  text-align: center;
+  font-family: 'Kite One', sans-serif;
+}
+
+article {
+  margin: 10px 10% 10px 10%;
+  text-align: center;
+}
+
+header  {
+  text-align: center;
+}
+
+ul > li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+  list-style: none;
+}
+
+button {
+  background: black;
+  width: 160px;
+  height: 40px;
+  font-size: 1.2em;
+  opacity: 0.4;
+  color: white;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+hr {
+  text-align: center;
+}
+
+img[class="icon"] {
+   height: 20px;
+   width: 20px;
+   margin: 0 0px 0 0px;
+   -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+footer {
+    font-family: 'Kite One', sans-serif;
+    text-align: center;
+    font-size: .9em;
+    float: clear;
+    opacity: 1;
+}
+
+input {
+  width: 250px;
+  heigh: 100px;
+  font-size: 1.5em;
+  text-align: center;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.label {
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  text-align: right;
+      margin: 3px 10px;
+}
+.value {
+  float: left;
+  text-align: left;
+  width: 300px;
+  margin: 3px 20px;
+}
+
+#poster {
+  float: left;
+  margin-left: 100px;
+}
+
+.image img {
+  height: 350px;
+}
+
+#details {
+  font-size: 1.2em;
+}
+
+#footer {
+
+}
